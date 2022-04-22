@@ -1,0 +1,1 @@
+$(document).ready((function(){$('input[type="file"]').on("change",(function(){var e=[],n=document.getElementById("customFile").files;if(n.length>1)e.push("Total Files ("+n.length+")");else for(var t in n)n.hasOwnProperty(t)&&e.push(n[t].name);$(this).next(".custom-file-label").html(e.join(","))}))}));
