@@ -47,7 +47,7 @@
                     <div class="col-12 col-md-3 my-3">
                         <div style="border-radius: 10px 10px;background-color:#fff;">
                             <div class="text-center" style="border-radius: 10px 10px;width: 100%;height:190px;">
-                                <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-{{$i}}.png" class="mt-1" style="width:60%;height:100%;object-fit: cover;">
+                                <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-{{$i}}.png" class="mt-1" style="width:60%;height:100%;object-fit: cover;" alt="avatar {{ $user->user_players[0]->nome }}">
                             </div>
                             <div class="text-center text-white" style="border-radius: 10px 10px;width: 100%;height:110px; border:3px solid #444444; background-color:#444444;">
                                 <h5 class="card-title mt-3">{{ $user->user_players[0]->nome }}</h5>

@@ -45,7 +45,7 @@
     <div class="container">
 
         <div class="w-100 mx-auto text-center py-5">
-            <img src="{{ env('APP_URL') }}/assets/img/banners/bannerpix.png" alt="" class="bannerpix" style="margin-bottom: 10%;">
+            <img src="{{ env('APP_URL') }}/assets/img/banners/bannerpix.png" alt="" class="bannerpix" alt="banner do pix" style="margin-bottom: 10%;">
         </div>
 
  
@@ -68,7 +68,7 @@
                 <div class="col-12 col-md-3 my-2">
                     <div class="card text-white" style="border-radius: 10px 10px;background-color:#16253A;">
                         <div style="border-radius: 10px 10px;width: 100%;height:160px; border:3px solid #FF8F1C;">
-                            <img src="{{ env('APP_URL') }}/storage/img/torneios/{{ $torneio->imagem }}" style="width:100%;height:100%;object-fit: cover;border-radius: 7px 7px;">
+                            <img src="{{ env('APP_URL') }}/storage/img/torneios/{{ $torneio->imagem }}" style="width:100%;height:100%;object-fit: cover;border-radius: 7px 7px;" alt="torneios de {{ $torneio->titulo }}">
                         </div>
                         <div class="card-body">
                         <h5 class="card-title">{{ $torneio->titulo }}</h5>
@@ -128,7 +128,7 @@
                     <div class="col-12 col-md-3 my-3">
                         <div style="border-radius: 10px 10px;background-color:#fff;">
                             <div class="text-center" style="border-radius: 10px 10px;width: 100%;height:190px;">
-                                <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-{{$i}}.png" class="mt-0" style="width:60%;height:100%;object-fit: cover;">
+                                <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-{{$i}}.png" class="mt-0" style="width:60%;height:100%;object-fit: cover;" alt="avatar {{ $user->user_players[0]->nome }}">
                             </div>
                             <div class="text-center text-white" style="border-radius: 10px 10px;width: 100%;height:110px; border:3px solid #444444; background-color:#444444;">
                                 <h5 class="card-title mt-3">{{ $user->user_players[0]->nome }}</h5>
@@ -167,7 +167,7 @@
             </div>
             <div class="col-12 col-md-4 text-center py-3">
                 <a data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="text-decoration:none">
-                    <h4 class="text-principal"><b>JOGOS PRINCIPAIS</b> <img src="{{ env('APP_URL') }}/assets/img/icons/icon-arrow-down.png" class="ml-2 mb-2" style="width: 25px"></h4>
+                    <h4 class="text-principal"><b>JOGOS PRINCIPAIS</b> <img src="{{ env('APP_URL') }}/assets/img/icons/icon-arrow-down.png" alt="seta pra baixo" class="ml-2 mb-2" style="width: 25px"></h4>
                 </a>
             </div>
             <div class="col-4 pb-4">
@@ -187,7 +187,7 @@
                         <div>
                             <p >
                                 <div class="mx-auto" style="width: 50%;height:80px;">
-                                    <img src="{{ env('APP_URL') }}/storage/img/games/{{ $game->imagem }}" style="width:70%;height:100%;object-fit: contain;border-radius: 30%;">
+                                    <img src="{{ env('APP_URL') }}/storage/img/games/{{ $game->imagem }}" style="width:70%;height:100%;object-fit: contain;border-radius: 30%;" alt="game {{ $game->nome }}">
                                 </div>
                             </p>
                             <h4>{{ $game->nome }}</h4>
@@ -257,7 +257,7 @@
                                                 $min=1;
                                                 $max=4;
                                                 echo rand($min,$max);
-                                            ?>.png" class="mt-0" style="width:55%;height:100%;object-fit: cover;">
+                                            ?>.png" alt="avatar {{ $player->player_time->nome }}" class="mt-0" style="width:55%;height:100%;object-fit: cover;">
                                             </div>
                                             <div class="text-center text-white" style="border-radius: 10px 10px;width: 100%;height:100px; border:3px solid #444444; background-color:#444444;">
                                                 <h5 class="card-title mt-3">{{ $player->player_time->nome }}</h5>
@@ -311,7 +311,7 @@
                     <div class="col-7 col-md-2 my-3">
                         <div class="w-100 text-center">
                             <div class="mx-auto" style="border-radius: 30px 30px;width: 100px;height:100px;box-shadow: 3px 3px 0.3em #000;">
-                                <img src="{{ $streamer->player_users->avatar }}" style="width:100%;height:100%;object-fit: contain;border-radius: 20px 20px;">
+                                <img src="{{ $streamer->player_users->avatar }}" style="width:100%;height:100%;object-fit: contain;border-radius: 20px 20px;" alt="patrocinado {{ $streamer->nome }}">
                             </div>
                             <p class="mt-3"><b>{{ $streamer->nome }}</b></p>
                         </div>
