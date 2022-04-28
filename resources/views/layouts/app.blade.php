@@ -27,15 +27,14 @@
     gtag('config', 'G-21MC6NF7Q4');
     </script>
 
-    
-
     <!-- Styles -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <noscript><link href="{{ asset('assets/css/style.css') }}" rel="stylesheet"></noscript>
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <noscript><link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"></noscript>
+    
 
     
 </head>

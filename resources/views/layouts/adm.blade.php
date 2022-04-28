@@ -16,8 +16,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 
     <!-- Styles -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <noscript><link href="{{ asset('assets/css/style.css') }}" rel="stylesheet"></noscript>
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <noscript><link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"></noscript>
+
 
     <!-- Editor de textarea -->
     <script src="https://cdn.tiny.cloud/1/d40wa0x9ijj10jlpcbu10qtpb9qa8k52vw2ldgn22fq3z1a6/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
@@ -27,10 +32,6 @@
         selector: '.edit-textarea'
       });
     </script>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
     
