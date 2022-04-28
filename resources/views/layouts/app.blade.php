@@ -28,11 +28,13 @@
     </script>
 
     <!-- Styles -->
+    <link rel="preload" href="{{ asset('assets/css/style.css') }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link href="{{ asset('assets/css/style.css') }}" rel="stylesheet"></noscript>
     <link href="{{ asset('assets/css/app.css') }}" rel="stylesheet">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Nunito" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet"></noscript>
     
 
