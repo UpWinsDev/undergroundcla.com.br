@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10" style="margin-top: 10%;height:480px;">
-                <img src="./img/icones/not1.png" alt="" style="width: 70%;margin-bottom: 15%;">
+                <img src="./img/icones/not1.png" alt="" style="width: 70%;margin-bottom: 15%;" loading="lazy">
                 <h1 class="text-white" style="font-size:60px;"><b>TORNEIOS </b></h1>
                 
 
@@ -37,7 +37,7 @@
                 <div class="col-12 col-md-3 my-2">
                     <div class="card text-white" style="border-radius: 10px 10px;background-color:#16253A;">
                         <div style="border-radius: 10px 10px;width: 100%;height:160px; border:3px solid #FF8F1C;">
-                            <img src="{{ env('APP_URL') }}/storage/img/torneios/{{ $torneio->imagem }}" alt="torneio {{ $torneio->titulo }}" style="width:100%;height:100%;object-fit: cover;border-radius: 7px 7px;">
+                            <img src="{{ env('APP_URL') }}/storage/img/torneios/{{ $torneio->imagem }}" alt="torneio {{ $torneio->titulo }}" style="width:100%;height:100%;object-fit: cover;border-radius: 7px 7px;" loading="lazy">
                         </div>
                         <div class="card-body">
                         <h5 class="card-title">{{ $torneio->titulo }}</h5>

@@ -31,7 +31,7 @@
                     @if (Session::has('mensagem-sucesso'))
 
                         <p>
-                            <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked" style="width: 90px; ">
+                            <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked" loading="lazy" style="width: 90px; ">
                         </p>
 
                         <p class="text-white w-50 mx-auto">Seu formulário foi enviado com sucesso. fique atento ao seu email que em breve entraremos em contato!</p>

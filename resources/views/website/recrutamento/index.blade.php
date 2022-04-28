@@ -33,13 +33,13 @@
 
                         @if (Auth::user()->user_players[0]->recrutado == 0)
                             <p>
-                                <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked"  style="width: 90px; ">
+                                <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked" loading="lazy" style="width: 90px; ">
                             </p>
         
                             <p class="text-white w-50 mx-auto">Seu formulário foi enviado com sucesso. fique atento ao seu email que em breve entraremos em contato!</p>
                         @elseif (Auth::user()->user_players[0]->recrutado == 1)
                             <p>
-                                <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked"  style="width: 90px; ">
+                                <img src="{{ asset('assets/img/check.png') }}" alt="" class="img-logo" alt="checked" loading="lazy" style="width: 90px; ">
                             </p>
         
                             <p class="text-white w-50 mx-auto">Sejá bem vindo, nossa missão é oferecer o melhor possível aos nossos jogadores enquanto trazemos alegria à nossa torcida!</p>
