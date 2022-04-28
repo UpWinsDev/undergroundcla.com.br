@@ -48,7 +48,7 @@
             <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 
                     <a class="navbar-brand d-block d-lg-none" href="#">
-                        <img src="{{ asset('assets/img/logo-principal.png') }}" alt="" class="img-logo"  style="width: 50px; ">
+                        <img src="{{ asset('assets/img/logo-principal.png') }}" alt="logo principal" class="img-logo"  style="width: 50px; ">
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -68,7 +68,7 @@
                             </li>
                             <li class="nav-item d-none d-lg-block nav-img-logo" style="width: 140px; margin-top:-25px;">
                                 <a class="navbar-brand btn-block" href="{{ route('home.index') }}" >
-                                    <img src="{{ asset('assets/img/logo-principal.png') }}" alt="" class="img-logo"  style="width: 130px; border-radius:100%;position: absolute;">
+                                    <img src="{{ asset('assets/img/logo-principal.png') }}" alt="logo principal" class="img-logo"  style="width: 130px; border-radius:100%;position: absolute;">
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -84,7 +84,7 @@
                                 
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" role="button" data-toggle="dropdown" aria-expanded="false">
 
-                                        <img src="{{ Auth::user()->avatar}}" alt="" style="width: 30px;border-radius:50px;">
+                                        <img src="{{ Auth::user()->avatar}}" alt="avatar {{ Auth::user()->username }}" style="width: 30px;border-radius:50px;">
                                         
                                         Olá, {{ Auth::user()->username }}
                                     </a>
@@ -100,7 +100,7 @@
                                     
             
                                 @else
-                                    <a href="{{ route('auth.steam') }}" class="nav-link"><img src="{{ asset('assets/img/login.png') }}" alt="" class="pr-2" style="width: 25px"> Fazer login</a>
+                                    <a href="{{ route('auth.steam') }}" class="nav-link"><img src="{{ asset('assets/img/login.png') }}" alt="fazer login" class="pr-2" style="width: 25px"> Fazer login</a>
                                 @endif
                             </li>
                         </ul>
@@ -247,7 +247,7 @@
                                 <div class="col-7 col-md-3 my-3">
                                     <div class="w-100 text-center">
                                         <div style="width: 100%;height:80px;">
-                                            <img src="{{ env('APP_URL') }}/storage/img/patrocinadores/{{ $patrocinio->imagem }}" style="width:100%;height:100%;object-fit: contain;">
+                                            <img src="{{ env('APP_URL') }}/storage/img/patrocinadores/{{ $patrocinio->imagem }}" alt="patrocinadores" style="width:100%;height:100%;object-fit: contain;">
                                         </div>
                                     </div>
                                 </div>
@@ -266,9 +266,9 @@
                                 <p class="text-white font-weight-bold my-3">REDE SOCIAL</p>
 
                                 <div class="w-100 pt-3">
-                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-instagram.png') }}" alt="" class="mx-1" style="width: 30px"></a>
-                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-twitch.png') }}" alt="" class="mx-1" style="width: 30px"></a>
-                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-youtube.png') }}" alt="" class="mx-1" style="width: 38px"></a>
+                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-instagram.png') }}" alt="instagram" class="mx-1" style="width: 30px"></a>
+                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-twitch.png') }}" alt="twitch" class="mx-1" style="width: 30px"></a>
+                                    <a href="#"><img src="{{ asset('assets/img/redes-sociais/icon-youtube.png') }}" alt="youtube" class="mx-1" style="width: 38px"></a>
                                 </div>
                             </div>
                         </div>
@@ -308,7 +308,7 @@
                                 <div class="w-100 pt-3">
                                     <p>
                                         <a href="mailto:contato@stsemtag.com.br" class="text-white">
-                                            <img src="{{ asset('assets/img/redes-sociais/icon-email.png') }}" alt="" class="mx-1" style="width: 20px">
+                                            <img src="{{ asset('assets/img/redes-sociais/icon-email.png') }}" alt="email" class="mx-1" style="width: 20px">
                                             contato@stsemtag.com.br
                                         </a>
                                     </p>
@@ -330,7 +330,7 @@
 
                         <div class="col-md-12">
                             <div class="w-100 text-center">
-                                <img src="{{ asset('assets/img/logo-principal.png') }}" alt="" class="mx-1" style="width: 80px">
+                                <img src="{{ asset('assets/img/logo-principal.png') }}" alt="logo principal" class="mx-1" style="width: 80px">
                                 <p class="text-secondary small"><b>NÃO SOMOS SÓ UM TIME SOMOS UMA FAMÍLIA</b></p>
                             </div>
                         </div>
