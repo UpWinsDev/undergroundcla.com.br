@@ -120,7 +120,7 @@
                         <div class="col-md-12" style="margin-top: 5%;height:400px;">
              
                             <div class="mx-auto" style="width: 300px">
-                                <img src="{{ asset('assets/img/game-06.png') }}" alt="" class="float-left" style="width: 70px">
+                                <img src="{{ asset('assets/img/game-06.png') }}" alt="" loading="lazy" class="float-left" style="width: 70px">
                                 <h4 class="text-white text-center font-weight-bold">FAÇA PARTE DA NOSSA DOAÇÃO:</h4>
                             </div>
                             <p class="text-white text-center mx-auto py-4" style="max-width: 500px">Conectamos gamers que tem equipamentos para doar, com outros gamers que necessitam de um equipamento. Colabore com o ST!

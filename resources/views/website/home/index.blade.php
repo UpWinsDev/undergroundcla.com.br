@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10" style="margin-top: 10%;height:650px;">
-                <img src="./img/icones/not1.png" alt="" style="width: 70%;margin-bottom: 10%;">
+                <img src="./img/icones/not1.png" loading="lazy" alt="not1" style="width: 70%;margin-bottom: 10%;">
                 <h1 class="text-white" style="font-size:60px;font-weight:800;"><b>FAÇA <br> PARTE <br> DO <span style="color:#FF8F1C;font-size:70px;">ST</span> </b></h1>
                 <p class="text-white py-3" style="width: 330px">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos mais do que isso e hoje, <b>somos um time E-sports.</b>
                 </p>
