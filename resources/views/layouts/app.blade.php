@@ -19,13 +19,13 @@
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF47K1PDY4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-C32BJ91254"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-CF47K1PDY4');
+    gtag('config', 'G-C32BJ91254');
     </script>
 
     <!-- Styles -->
