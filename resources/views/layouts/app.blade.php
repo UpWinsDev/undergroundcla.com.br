@@ -14,17 +14,18 @@
     <meta name="description" content="Nossa missão é oferecer o melhor possível aos nossos jogadores enquanto trazemos alegria à nossa torcida. Ano após ano estamos evoluindo para sermos a maior família gamer do mundo!">
     <meta name="keywords" content="streamer, games, team, scum, torneio, rpg, recrutar" />
     <meta name="revised" content="15/04/2022" />
-
+    <meta name="google-site-verification" content="ACphy9ljwZokf3teYxBC-A0FUhFoZh1z_LGH2SVNKIQ" />
+    
     <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-21MC6NF7Q4"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF47K1PDY4"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-21MC6NF7Q4');
+    gtag('config', 'G-CF47K1PDY4');
     </script>
 
     <!-- Styles -->
