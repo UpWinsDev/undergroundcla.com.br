@@ -367,7 +367,7 @@
                     },
                     "button": {
                         "background": "#FF8F1C",
-                        "text": '#fff'                }
+                        "text": '#000'                }
                 },
 
 
