@@ -7,7 +7,6 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10" style="margin-top: 10%;height:480px;">
-                <img src="./img/icones/not1.png" alt="" style="width: 70%;margin-bottom: 15%;" loading="lazy">
                 <h1 class="text-white" style="font-size:60px;"><b>TORNEIOS </b></h1>
                 
 
