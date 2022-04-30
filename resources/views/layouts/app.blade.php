@@ -183,10 +183,10 @@
                 <h4 class="text-center py-5"><b>ENTRE EM CONTATO</b></h4>
         
                 <div class="row justify-content-center pb-5">
-                    <div class="col-md-5 img-fundo-contato" style="border-radius:5px;">
+                    <div class="col-10 col-md-5 img-fundo-contato" style="border-radius:5px;">
                         <h5 class="text-white text-center w-75 mx-auto" style="margin-top:40%;margin-bottom:20%;"><b>Deixe sua mensagem que em breve nossa equipe retornará!</b></h5>
                     </div>
-                    <div class="col-md-5" style="background-color:#1F0037; border-radius:5px; box-shadow: 5px 5px 2em black;">
+                    <div class="col-10 col-md-5" style="background-color:#1F0037; border-radius:5px; box-shadow: 5px 5px 2em black;">
                     
                         <p class="text-white text-center w-75 mx-auto my-3" ><b>Preencha o formulário</b></p>
 

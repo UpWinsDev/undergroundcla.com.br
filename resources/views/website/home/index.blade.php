@@ -250,7 +250,7 @@
 
 
 
-                                    <div class="col-12 col-md-3 my-3">
+                                    <div class="col-8 col-md-3 my-3">
                                         <div style="border-radius: 10px 10px;background-color:#fff;">
                                             <div class="text-center" style="border-radius: 10px 10px;width: 100%;height:150px;">
                                                 <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-<?php
