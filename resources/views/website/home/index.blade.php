@@ -283,7 +283,7 @@
             @endforeach
 
         <div class="w-100 text-center py-5">
-            <a class="btn px-4 btn-principal text-white"  href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
+            <a class="btn px-4 btn-principal text-dark font-weight-bold"  href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
         </div>
     </div>
 </div>
