@@ -29,13 +29,13 @@
     <div class="container">
         <div class="row justify-content-center pt-3">
             <div class="col-12 col-md-2">
-                <h2 class="font-weight-bold">SOBRE <br> A <span class="text-white">ST</span></h2>
+                <h2 class="font-weight-bold">SOBRE <br> A <span style="color:#D4D9E6;">ST</span></h2>
             </div>
             <div class="col-12 col-md-2 pt-3">
                 <div class="border border-dark w-100 my-3"></div>
             </div>
             <div class="col-12 col-md-6 pb-2">
-                <p class="font-weight-bold">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos ser mais do que isso e hoje, somos um time de E-sports...  <a href="{{ route('home.sobre') }}" class="text-white">Ver mais</a> </p>
+                <p class="font-weight-bold">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos ser mais do que isso e hoje, somos um time de E-sports...  <a href="{{ route('home.sobre') }}" style="color:#D4D9E6;">Ver mais</a> </p>
             </div>
         </div>
     </div>
