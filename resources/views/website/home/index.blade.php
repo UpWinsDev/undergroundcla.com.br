@@ -125,7 +125,7 @@
 
                 @if (!empty($user->user_players[0]) && $user->user_players[0]->id_classe == 1)
 
-                    <div class="col-12 col-md-3 my-3">
+                    <div class="col-8 col-md-3 my-3">
                         <div style="border-radius: 10px 10px;background-color:#fff;">
                             <div class="text-center" style="border-radius: 10px 10px;width: 100%;height:190px;">
                                 <img src="{{ env('APP_URL') }}/assets/img/avatars/persona-{{$i}}.png" class="mt-0" style="width:60%;height:100%;object-fit: cover;" loading="lazy" alt="avatar {{ $user->user_players[0]->nome }}">
