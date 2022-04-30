@@ -129,7 +129,7 @@
             
                             <div class="mx-auto text-center" style="width: 325px">
                                 <h4 class="text-white">QUER COLABORAR E AJUDAR OUTROS GAMERS?</h4>
-                                <a class="btn px-4 my-4 btn-principal text-white"  href="{{ route('home.contribuir') }}" style="border-radius:10px;">DOAR EQUIPAMENTO</a>
+                                <a class="btn px-4 my-4 btn-principal text-dark font-weight-bold"  href="{{ route('home.contribuir') }}" style="border-radius:10px;">DOAR EQUIPAMENTO</a>
                             </div>
 
                             {{-- <div class="row justify-content-center">
@@ -213,7 +213,7 @@
                                 
                             </div>
 
-                            <button type="submit" class="btn btn-principal px-4 text-white">Enviar</button>
+                            <button type="submit" class="btn btn-principal px-4 text-dark font-weight-bold">Enviar</button>
                         </form>
 
 

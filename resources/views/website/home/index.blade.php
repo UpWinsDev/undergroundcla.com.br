@@ -10,15 +10,15 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10" style="margin-top: 10%;height:650px;">
-                
+
                 <h1 class="text-white" style="font-size:60px;font-weight:800;"><b>FAÇA <br> PARTE <br> DO <span style="color:#FF8F1C;font-size:70px;">ST</span> </b></h1>
                 <p class="text-white py-3" style="width: 330px">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos mais do que isso e hoje, <b>somos um time E-sports.</b>
                 </p>
 
-                
-                <a class="btn px-4 mb-2 btn-principal text-white" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
-                <a class="btn px-5 mb-2" href="{{ route('home.torneios') }}" style="color:#fff;border-radius:10px;border:1 solid #fff;border-color:#fff;">TORNEIOS</a>
-                
+
+                <a class="btn px-4 mb-2 btn-principal text-dark font-weight-bold" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
+                <a class="btn px-5 mb-2 font-weight-bold" href="{{ route('home.torneios') }}" style="color:#fff;border-radius:10px;border:1 solid #fff;border-color:#fff;">TORNEIOS</a>
+
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             <img src="{{ env('APP_URL') }}/assets/img/banners/bannerpix.png" alt="" class="bannerpix" alt="banner do pix" loading="lazy" style="margin-bottom: 10%;">
         </div>
 
- 
+
 
        <div class="row justify-content-center">
            <div class="col-3">
@@ -84,7 +84,7 @@
                             <span class="px-2" style="border:1px solid #FF8F1C; border-radius:8px;">PLAYERS {{ $torneio->qtd_players }}</span>
                             <span class="px-2" style="border:1px solid #FF8F1C; border-radius:8px;">VALOR {{ number_format($torneio->valor_inscricao, 2, ',', '.') }}</span>
                         </p>
-                        
+
                         <p>{{ $torneio->data_evento }}, {{ $torneio->duracao_media }} - BR</p>
 
                         </div>
@@ -121,7 +121,7 @@
             @endphp
 
             @foreach ($users as $user)
-         
+
 
                 @if (!empty($user->user_players[0]) && $user->user_players[0]->id_classe == 1)
 
@@ -140,13 +140,13 @@
                     @if ($i == 4)
                         {{ $i = 1 }}
                     @endif
-                    
+
                 @endif
 
-                
-                
+
+
             @endforeach
-            
+
 
         </div>
     </div>
@@ -158,7 +158,7 @@
             <div class="w-25 mx-auto mt-5 border"></div>
 
     </div>
-    
+
     <div class="container">
         <div class="row justify-content-center pt-3">
 
@@ -173,13 +173,13 @@
             <div class="col-4 pb-4">
                 {{-- <div class="border w-100 my-3"></div> --}}
             </div>
-            
+
         </div>
 
         <div class="collapse" id="collapseExample">
-            
+
             <div class="row justify-content-center text-white">
-                
+
                 @foreach ($games as $game)
 
                 @if ($game->ativo == 1)
@@ -194,21 +194,21 @@
                             <p>{{ $game->descricao }}</p>
                         </div>
                     </div>
-                    
+
                 @endif
 
-                
+
                 @endforeach
 
                 <div class="w-100 text-center my-4">
-                    <a class="btn px-4 btn-principal text-white" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
+                    <a class="btn px-4 btn-principal text-dark font-weight-bold" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
                 {{-- <button class="btn px-4" type="button" style="color:#fff;border-radius:10px;border:1 solid #fff;border-color:#fff;">VER TODOS OS TIMES</button> --}}
                 </div>
 
             </div>
-            
 
-            
+
+
 
         </div>
 
@@ -248,8 +248,8 @@
                                 {{-- VERIFICA SE POSSUI PLAYERS LIDERES NO TIME --}}
                                 @if ($player->status == 1)
 
-                                
-                    
+
+
                                     <div class="col-12 col-md-3 my-3">
                                         <div style="border-radius: 10px 10px;background-color:#fff;">
                                             <div class="text-center" style="border-radius: 10px 10px;width: 100%;height:150px;">
@@ -262,24 +262,24 @@
                                             <div class="text-center text-white" style="border-radius: 10px 10px;width: 100%;height:100px; border:3px solid #444444; background-color:#444444;">
                                                 <h5 class="card-title mt-3">{{ $player->player_time->nome }}</h5>
                                                 <p>{{$time->nome}}</p>
-                                                
+
                                             </div>
                                         </div>
                                     </div>
 
                                 @endif
-                                    
+
                             @endforeach
                         @endif
-                        
-            
-                            
+
+
+
                     @endforeach
 
                 </div>
             @endif
 
-            
+
             @endforeach
 
         <div class="w-100 text-center py-5">
@@ -304,9 +304,9 @@
             </div>
         </div>
 
-        
+
             <div class="row justify-content-center">
-                
+
                 @foreach ($playersPatrocinados as $streamer)
                     <div class="col-7 col-md-2 my-3">
                         <div class="w-100 text-center">

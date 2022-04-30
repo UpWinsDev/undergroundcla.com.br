@@ -11,7 +11,7 @@
                 <h1 class="text-white" style="font-size:60px;"><b>TORNEIOS </b></h1>
                 
 
-                <a class="btn px-4 btn-principal text-white mt-4" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
+                <a class="btn px-4 btn-principal text-dark font-weight-bold mt-4" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
                 
             </div>
         </div>

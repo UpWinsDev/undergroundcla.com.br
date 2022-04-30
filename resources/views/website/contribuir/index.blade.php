@@ -98,7 +98,7 @@
 
 
                                 <div class="form-group col-12 text-center">
-                                    <button class="btn px-4 btn-principal text-white" type="submit" style="border-radius:10px;">Enviar</button>
+                                    <button class="btn px-4 btn-principal text-dark font-weight-bold" type="submit" style="border-radius:10px;">Enviar</button>
                                 </div>
 
                                 
@@ -135,7 +135,7 @@
                 <h4 class="text-white py-3" style="width: 350px"><b> Ops... <br> <br> Parece que você não está conectado. Faça o login para enviar seu recrutamento</b>
                 </h4>
 
-                <button class="btn px-4 mt-4 btn-principal text-white" type="button" style="border-radius:10px;">FAZER LOGIN COM A STEAM</button>
+                <button class="btn px-4 mt-4 btn-principal text-dark font-weight-bold" type="button" style="border-radius:10px;">FAZER LOGIN COM A STEAM</button>
             </div>
         </div>
 

@@ -13,7 +13,7 @@
                 <p class="text-white py-3" style="width: 330px">A ST foi fundada em 2018 por <b>ROGER ANDERSON DE SOUZA</b> conhecido como <b>RAS</b>, na franquia SCUM. Inicialmente era apenas um hobby, ele tinha 13 anos e naquela época o esporte digital no Brasil nem existia. Foi em 2007 o primeiro campeonato mundial de SCUM.
                 </p>
 
-                <a class="btn px-4 btn-principal text-white" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
+                <a class="btn px-4 btn-principal text-dark font-weight-bold" href="{{ route('home.recrutamento') }}" style="border-radius:10px;">FAÇA PARTE DO TIME</a>
             </div>
         </div>
 
