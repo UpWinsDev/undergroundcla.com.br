@@ -64,7 +64,7 @@
         </div>
 
         <div class="w-100 text-center py-5">
-            <a href="#" class="text-dark"><h4><b>VER TODOS OS TORNEIOS</b></h4></a>
+            <a href="#" class="text-dark"><p><b>VER TODOS OS TORNEIOS</b></p></a>
         </div>
     </div>
 </div>

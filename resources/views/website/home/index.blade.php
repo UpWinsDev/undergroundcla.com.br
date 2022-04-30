@@ -27,15 +27,15 @@
 
 <div class="w-100" style="background: #FF8F1C;">
     <div class="container">
-        <div class="row justify-content-center pt-5">
+        <div class="row justify-content-center pt-3">
             <div class="col-12 col-md-2">
                 <h2 class="font-weight-bold">SOBRE <br> A <span class="text-white">ST</span></h2>
             </div>
-            <div class="col-12 col-md-2 pt-4">
+            <div class="col-12 col-md-2 pt-3">
                 <div class="border border-dark w-100 my-3"></div>
             </div>
-            <div class="col-12 col-md-6 pb-4">
-                <h4 class="">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos ser mais do que isso e hoje, somos um time de E-sports...  <a href="{{ route('home.sobre') }}" class="text-white">Ver mais</a> </h4>
+            <div class="col-12 col-md-6 pb-2">
+                <p class="font-weight-bold">Organização fundada em 2019, com uma ideia de juntar amigos, conseguimos ser mais do que isso e hoje, somos um time de E-sports...  <a href="{{ route('home.sobre') }}" class="text-white">Ver mais</a> </p>
             </div>
         </div>
     </div>
@@ -55,7 +55,7 @@
                 <div class="border w-100 my-3"></div>
            </div>
            <div class="col-12 col-md-2 text-center">
-            <h3><b>TORNEIOS</b></h3>
+            <h4><b>TORNEIOS</b></h4>
            </div>
            <div class="col-3">
                 <div class="border w-100 my-3"></div>
@@ -95,7 +95,7 @@
         </div>
 
         <div class="w-100 text-center py-5">
-            <a href="{{ route('home.torneios') }}" class="text-dark"><h4><b>VER TODOS OS TORNEIOS</b></h4></a>
+            <a href="{{ route('home.torneios') }}" class="text-dark"><p><b>VER TODOS OS TORNEIOS</b></p></a>
         </div>
     </div>
 </div>
@@ -190,7 +190,7 @@
                                     <img src="{{ env('APP_URL') }}/storage/img/games/{{ $game->imagem }}" style="width:70%;height:100%;object-fit: contain;border-radius: 30%;" alt="game {{ $game->nome }}" loading="lazy">
                                 </div>
                             </p>
-                            <h4>{{ $game->nome }}</h4>
+                            <h5>{{ $game->nome }}</h5>
                             <p>{{ $game->descricao }}</p>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
             @if (count($game->games_time) > 0)
                 <div class="row justify-content-center pt-5">
                     <div class="w-100">
-                        <h4 class="text-center mb-4"><b>{{$game->nome}}</b></h4>
+                        <h5 class="text-center mb-4"><b>{{$game->nome}}</b></h5>
                     </div>
                     @foreach ($game->games_time as $time )
 
