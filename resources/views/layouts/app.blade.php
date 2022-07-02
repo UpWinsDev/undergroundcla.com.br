@@ -32,6 +32,9 @@
     <meta name="adopt-website-id" content="e1e42867-478e-4bf8-a145-a8f6af1a2f97" />
     <script src="//tag.goadopt.io/injector.js?website_code=e1e42867-478e-4bf8-a145-a8f6af1a2f97" class="adopt-injector"></script>
 
+    <!-- Google Optimize -->
+    <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NRXJBVG"></script>
+
 
     <!-- Hotjar Tracking Code for https://stsemtag.com.br/ -->
     <script>
