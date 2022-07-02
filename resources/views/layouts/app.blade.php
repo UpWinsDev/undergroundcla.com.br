@@ -28,6 +28,10 @@
     gtag('config', 'G-C32BJ91254');
     </script>
 
+    <!-- Cookies -->
+    <meta name="adopt-website-id" content="e1e42867-478e-4bf8-a145-a8f6af1a2f97" />
+    <script src="//tag.goadopt.io/injector.js?website_code=e1e42867-478e-4bf8-a145-a8f6af1a2f97" class="adopt-injector"></script>
+
 
     <!-- Hotjar Tracking Code for https://stsemtag.com.br/ -->
     <script>
@@ -365,7 +369,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.10/jquery.mask.js" defer> </script>
     <script src="{{ asset ('assets/js/mask.js')}}" defer></script>
 
-    <link rel="stylesheet" async type="text/css"
+    {{-- <link rel="stylesheet" async type="text/css"
     href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <script async src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
@@ -398,7 +402,7 @@
                 }
             })
         });
-    </script>
+    </script> --}}
 
 </body>
 </html>
