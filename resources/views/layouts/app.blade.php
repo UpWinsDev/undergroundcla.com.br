@@ -321,10 +321,10 @@
                                         <p><a href="{{ route('home.contribuir') }}" class="text-white" style="text-decoration:none">CONTRIBUA</a></p>
                                         <div class="border mx-auto w-75 my-3"></div>
 
-                                        <p><a href="#contato" class="text-white" style="text-decoration:none">TERMOS DE USO</a></p>
+                                        <p><a href="https://stsemtag.com.br/docs/termos_de_uso_st.pdf" target="_blank" class="text-white" style="text-decoration:none">TERMOS DE USO</a></p>
                                         <div class="border mx-auto w-75 my-3"></div>
 
-                                        <p><a href="{{ route('home.contribuir') }}" class="text-white" style="text-decoration:none">POLÍTICA DE PRIVACIDADE</a></p>
+                                        <p><a href="https://stsemtag.com.br/docs/politica_de_privacidade_st.pdf" target="_blank" class="text-white" style="text-decoration:none">PRIVACIDADE</a></p>
                                         <div class="border mx-auto w-75 my-3"></div>
 
                                     </div>
