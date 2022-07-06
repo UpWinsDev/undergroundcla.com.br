@@ -306,6 +306,7 @@
                                         <div class="border mx-auto w-75 my-3"></div>
 
                                         <p><a href="{{ route('home.recrutamento') }}" class="text-white" style="text-decoration:none">RECRUTAMENTO</a></p>
+                                        <div class="border mx-auto w-75 my-3"></div>
 
                                         <p><a href="{{ route('home.torneios') }}" class="text-white" style="text-decoration:none">TORNEIO</a></p>
                                         <div class="border mx-auto w-75 my-3"></div>
@@ -318,11 +319,13 @@
                                         <div class="border mx-auto w-75 my-3"></div>
 
                                         <p><a href="{{ route('home.contribuir') }}" class="text-white" style="text-decoration:none">CONTRIBUA</a></p>
+                                        <div class="border mx-auto w-75 my-3"></div>
 
                                         <p><a href="#contato" class="text-white" style="text-decoration:none">TERMOS DE USO</a></p>
                                         <div class="border mx-auto w-75 my-3"></div>
 
                                         <p><a href="{{ route('home.contribuir') }}" class="text-white" style="text-decoration:none">POLÍTICA DE PRIVACIDADE</a></p>
+                                        <div class="border mx-auto w-75 my-3"></div>
 
                                     </div>
                                 </div>
